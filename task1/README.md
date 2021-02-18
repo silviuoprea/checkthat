@@ -5,7 +5,6 @@ The task consists in ranking a stream of tweets according to their check-worthin
 
 ````
 FCPD corpus for the CLEF-2021 LAB on "Detecting Check-Worthy Claims, Previously Fact-Checked Claims, and Fake News"
-Version 1.0: Feb 4th, 2021 (Data, Baseline, Test data Release)
 ````
 
 This file contains the basic information regarding the CLEF2021-CheckThat! Task 1
@@ -50,14 +49,19 @@ TBA
 We provide the following files:
 
 * Main folder: [data](./data)
-  * Subfolder: [subtask-1A--spanish](./data/subtask-1a--spanish)
-  	* [v1.zip](./data/subtask-1a--spanish/v1.zip) </br>
-  	Contains train data released with the version 1.0 of the tweets used, the tweets JSON objects, and the labels assigned. 
-  	Also it contains dev data released with the version 1.0 of the tweets used, the tweets JSON objects, and the labels assigned. 
+  * Subfolder: [subtask-1A--english](./data/subtask-1a--english)
+  	* [data.zip](./data/subtask-1a--english/v1.zip) </br>
+  	Contains train data released with the tweets used, the tweets JSON objects, and the labels assigned. 
+  	Also it contains dev data released with the tweets used, the tweets JSON objects, and the labels assigned. 
+  * Subfolder: [subtask-1A--spanish](./data/subtask-1a--english)
+  	* [data.zip](https://github.com/Newtral-Tech/clef2021-checkthat/tree/main/data) </br>
+  	Contains train data released with the tweets used, the tweets JSON objects, and the labels assigned. 
+  	Also it contains dev data released with the tweets used, the tweets JSON objects, and the labels assigned. </br>
+	**NOTE:** The data for the spanish language is released in a seperate directory. Kindly find the link [here](https://github.com/Newtral-Tech/clef2021-checkthat/tree/main/data). 
   * Subfolder: [subtask-1B--english](./data/subtask-1b--english)
-  	* [v1.zip](./data/subtask-1b--english/v1.zip) </br>
-  	Contains train data released with the version 1.0 of the debates/speeches used, and the labels assigned. 
-  	Also it contains dev data released with the version 1.0 of the debates/speeches used, and the labels assigned. 
+  	* [data.zip](./data/subtask-1b--english/v1.zip) </br>
+  	Contains train data released the debates/speeches used, and the labels assigned. 
+  	Also it contains dev data released the debates/speeches used, and the labels assigned. 
 * Main folder: [baselines](./baselines)<br/>
 	Contains scripts provided for baseline models of the tasks
 * Main folder: [formet_checker](./format_checker)<br/>

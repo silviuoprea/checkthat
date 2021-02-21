@@ -43,6 +43,7 @@ TBA
 ## List of Versions
 
 * __subtask-1b--english-v1.0 [2021/02/07]__ - Training/Dev data for subtask-1b--English released. Containing 50 debates/speeches for train and 10 debates/speeches for dev.
+* __subtask-1a--english-v1.0 [2021/02/07]__ - Training/Dev data for subtask-1a--English released. Containing 822 tweets for train and 140 tweets for dev.
 * __subtask-1a--spanish-v1.0 [2021/02/04]__ - Training/Dev data for subtask-1a--Spanish released. Containing 2496 tweets for train and 1248 tweets for dev.
 
 ## Contents of the Task 1 Directory

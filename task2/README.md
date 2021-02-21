@@ -291,12 +291,21 @@ This task is evaluated as a ranking task. Ranked list per claim will be evaluate
 
 # Baselines
 The [baselines](./baselines) module contains a random and a simple BM25 IR baseline for the task.
+
+| Model | subtask-2A--English | subtask-2A--Arabic | subtask-2B--English |
+| :---: | :---: | :---: | :---: |
+| Random Baseline |  |  | 0.0000 |
+| Ngram Baseline  |  |  | 0.3207 |
+
+
+
 To launch the baseline script you need to install packages dependencies found in [requirement.txt](./requirement.txt) using the following:
 > pip3 install -r requirements.txt <br/>
 
 ## Random Baseline
 To launch the random baseline script run the following:
 > python3 baselines/random_baseline.py --train-file-path=<path_to_your_training_data> --test-file-path=<path_to_your_test_data_to_be_evaluated> --lang=<language_of_the_task_2> --subtask=<subtask_you_are_working_on> --vclaims-dir-path=<path_to_your_directory_of_vclaims> <br/>
+
 
 ## Elasticsearch Baseline 
 To use the Elastic Search baseline you need to have a locally running Elastic Search instance.

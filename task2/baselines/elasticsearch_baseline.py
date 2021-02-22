@@ -16,12 +16,11 @@ import sys
 sys.path.append('.')
 
 from scorer.main import evaluate
-# from format_checker.subtask_1a import check_format
 
 random.seed(0)
 ROOT_DIR = dirname(dirname(__file__))
 
-# logging.basicConfig(format='%(levelname)s : %(message)s', level=logging.INFO)
+logging.basicConfig(format='%(levelname)s : %(message)s', level=logging.INFO)
 
 
 def load_vclaims(dir):
@@ -55,7 +54,7 @@ def clear_index(es, index):
 def build_index(es, vclaims, index):
     vclaims_count = len(vclaims)
     logging.info(f"Builing index of {vclaims_count} vclaims")
-    # clear_index(es, index)
+    clear_index(es, index)
     for vclaim_id in tqdm(vclaims):
         vclaim = vclaims[vclaim_id]
         id = vclaim['vclaim_id']
@@ -110,7 +109,7 @@ def run_baselines(args):
     index = f"{args.subtask}-{args.lang}"
 
     es = create_connection(args.conn)
-    # build_index(es, vclaims, index)
+    build_index(es, vclaims, index)
     scores = get_scores(es, iclaims, vclaims, index, search_keys=args.keys, size=args.size)
 
     ngram_baseline_fpath = join(ROOT_DIR, f'baselines/data/subtask_{args.subtask}_elastic_baseline_{args.lang}_{basename(args.dev_file_path)}')

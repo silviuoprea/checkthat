@@ -266,8 +266,8 @@ Both baselines will be trained on the training tweets and the performance of the
 The MAP score of both baselines are as follows:<br/>
 | Model | English | Arabic | Spanish | Bulgarian | 
 | :---: | :---: | :---: | :---: | :---: |
-| Random Baseline | 0.4795 |  | 0.0806 | 0.1841 |
-| Ngram Baseline  | 0.5916 |  | 0.4122 | 0.4954 |
+| Random Baseline | 0.4795 |  | 0.0806 | 0.2045 |
+| Ngram Baseline  | 0.5916 |  | 0.4122 | 0.4729 |
 
 ### Subtask 1B: Check-Worthiness of Debates/Speeches
 

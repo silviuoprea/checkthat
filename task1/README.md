@@ -42,6 +42,7 @@ TBA
 
 ## List of Versions
 
+* __subtask-1a--bulgarian-v1.0 [2021/02/23]__ - Training/Dev data for subtask-1a--Bukgarian released. Containing 2594 tweets for train and 372 tweets for dev.
 * __subtask-1b--english-v1.0 [2021/02/07]__ - Training/Dev data for subtask-1b--English released. Containing 50 debates/speeches for train and 10 debates/speeches for dev.
 * __subtask-1a--english-v1.0 [2021/02/07]__ - Training/Dev data for subtask-1a--English released. Containing 822 tweets for train and 140 tweets for dev.
 * __subtask-1a--spanish-v1.0 [2021/02/04]__ - Training/Dev data for subtask-1a--Spanish released. Containing 2496 tweets for train and 1248 tweets for dev.
@@ -52,6 +53,10 @@ We provide the following files:
 * Main folder: [data](./data)
   * Subfolder: [subtask-1A--english](./data/subtask-1a--english)
   	* [data.zip](./data/subtask-1a--english/v1.zip) </br>
+  	Contains train data released with the tweets used, the tweets JSON objects, and the labels assigned. 
+  	Also it contains dev data released with the tweets used, the tweets JSON objects, and the labels assigned.
+  * Subfolder: [subtask-1A--bulgarian](./data/subtask-1a--bulgarian)
+  	* [data.zip](./data/subtask-1a--bulgarian/v1.zip) </br>
   	Contains train data released with the tweets used, the tweets JSON objects, and the labels assigned. 
   	Also it contains dev data released with the tweets used, the tweets JSON objects, and the labels assigned. 
   * Subfolder: [subtask-1A--spanish](./data/subtask-1a--english)
@@ -261,8 +266,8 @@ Both baselines will be trained on the training tweets and the performance of the
 The MAP score of both baselines are as follows:<br/>
 | Model | English | Arabic | Spanish | Bulgarian | 
 | :---: | :---: | :---: | :---: | :---: |
-| Random Baseline | 0.4795 |  | 0.0806 |  |
-| Ngram Baseline  | 0.5916 |  | 0.4122 |  |
+| Random Baseline | 0.4795 |  | 0.0806 | 0.1841 |
+| Ngram Baseline  | 0.5916 |  | 0.4122 | 0.4954 |
 
 ### Subtask 1B: Check-Worthiness of Debates/Speeches
 

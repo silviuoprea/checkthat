@@ -143,7 +143,7 @@ Example:
 ## Output Data Format
 
 ### Subtask 1A: Check-Worthiness of Tweets
-All languages (**Arabic**, **Bulgarian**, **English**, and **Spanish**) in subtask-1A have the same data format, which includes submission files.
+All languages (**Arabic**, **Bulgarian**, **English**, **Spanish** and **Turkish**) in subtask-1A have the same data format, which includes submission files.
 
 For this task, the expected results file is a list of tweets with the estimated score for check-worthiness. Each row contains four TAB separated fields:
 

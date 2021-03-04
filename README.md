@@ -8,6 +8,7 @@ The CLEF2021-CheckThat! Lab has three main tasks each offered in variaty of lang
       - **Bulgarian**
       - **English**
       - **Spanish**
+      - **Turkish**
     - Subtask 1B: Check-Worthiness of Debates/Speeches
       - **English**
   - [Task 2: Detecting Previously Fact-Checked Claims](task2)

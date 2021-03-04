@@ -64,7 +64,7 @@ We provide the following files:
   	* [data.zip](https://github.com/Newtral-Tech/clef2021-checkthat/tree/main/data) </br>
   	Contains train data released with the tweets used, the tweets JSON objects, and the labels assigned. 
   	Also it contains dev data released with the tweets used, the tweets JSON objects, and the labels assigned. </br>
-  * Subfolder: [subtask-1A--spanish](./data/subtask-1a--english)
+  * Subfolder: [subtask-1A--turkish](./data/subtask-1a--turkish)
   	* [data.zip](./data/subtask-1a--turkish/v1.zip) </br>
   	Contains train data released with the tweets used and the labels assigned. 
   	Also it contains dev data released with the tweets used and the labels assigned. </br>

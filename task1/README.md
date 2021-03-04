@@ -46,6 +46,7 @@ TBA
 * __subtask-1b--english-v1.0 [2021/02/07]__ - Training/Dev data for subtask-1b--English released. Containing 50 debates/speeches for train and 10 debates/speeches for dev.
 * __subtask-1a--english-v1.0 [2021/02/07]__ - Training/Dev data for subtask-1a--English released. Containing 822 tweets for train and 140 tweets for dev.
 * __subtask-1a--spanish-v1.0 [2021/02/04]__ - Training/Dev data for subtask-1a--Spanish released. Containing 2496 tweets for train and 1248 tweets for dev.
+* __subtask-1a--turkish-v1.0 [2021/03/04]__ - Training/Dev data for subtask-1a--Turkish released. Containing 1899 tweets for train and 388 tweets for dev.
 
 ## Contents of the Task 1 Directory
 We provide the following files:
@@ -63,6 +64,11 @@ We provide the following files:
   	* [data.zip](https://github.com/Newtral-Tech/clef2021-checkthat/tree/main/data) </br>
   	Contains train data released with the tweets used, the tweets JSON objects, and the labels assigned. 
   	Also it contains dev data released with the tweets used, the tweets JSON objects, and the labels assigned. </br>
+  * Subfolder: [subtask-1A--spanish](./data/subtask-1a--english)
+  	* [data.zip](./data/subtask-1a--turkish/v1.zip) </br>
+  	Contains train data released with the tweets used and the labels assigned. 
+  	Also it contains dev data released with the tweets used and the labels assigned. </br>
+
 	**NOTE:** The data for the spanish language is released in a seperate directory. Kindly find the link [here](https://github.com/Newtral-Tech/clef2021-checkthat/tree/main/data). 
   * Subfolder: [subtask-1B--english](./data/subtask-1b--english)
   	* [data.zip](./data/subtask-1b--english/v1.zip) </br>

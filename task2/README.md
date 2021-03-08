@@ -1,4 +1,4 @@
-# Task 3: Fake News Detection
+# Task 2: Detecting Previously Fact-Checked Claims
 
 This repository contains the _dataset_, _format checker, scorer and baselines_ for the [CLEF2021-CheckThat! Task 2](https://sites.google.com/view/clef2021-checkthat/tasks/task-2-claim-retrieval). 
 Given a check-worthy claim in the form of a tweet, and a set of previously fact-checked claims, rank the previously fact-checked claims in order of usefulness to fact-check the input claim.

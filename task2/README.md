@@ -81,7 +81,27 @@ Each vclaim is represented in one json file.
 Different subtasks and language variation contain different fields. 
 
 ### Verified Claims (Subtask-2A) - Arabic 
-TBA
+
+TAB separated file where each row in the file has the following format
+
+> vclaim_id <TAB> vclaim <TAB> title
+
+where: <br>
+
+* vclaim_id: unique ID of the verified claim <br/>
+* vclaim: text of the verified claim <br/>
+* title: title of the article providing justification for the vclaim truth_label <br/>
+
+### Queries File (Subtask-2A) - Arabic 
+
+TAB separated file where each row in the file has the following format
+
+> tweet_id <TAB> tweet_text
+
+where: <br>
+
+* tweet_id: unique ID for a given tweet <br/>
+* tweet_text: text of the input claim (tweet) <br/>
 
 ### Verified Claims (Subtask-2A) - English
 For each vclaim we provide the following, 

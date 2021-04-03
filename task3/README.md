@@ -3,10 +3,6 @@
 This repository contains the _dataset_, _format checker, scorer and baselines_ for the [CLEF2021-CheckThat! Task 3](https://sites.google.com/view/clef2021-checkthat/tasks/task-3-fake-news-detection). 
 Given the text of a news article, determine whether the claims made in the article are true, partially true, false or other (e.g., claims in dispute) and also detect the topical domain of the article. This task will run in English.
 
-Subtask 3A: Multi-class fake news detection of news articles (English): Sub-task A would be the detection of fake news designed as a four-class classification problem. The training data will be released in batches and will be roughly about 1,000 articles with the respective label. Given the text of a news article, determine whether the main claim made in the article is true, partially true, false, or other. 
-
-Subtask 3B: Fact-checkers require background expertise to identify the truthfulness of an article. The categorisation will help to automate the sampling process from a stream of data. Given the text of a news article, determine the topical domain of the article (English). This is a classification problem. The task is to categorise fake news articles into five or more different topical categories like health, election, conspiracy theory etc. This task will be offered for a subset of the data of Subtask 3A.
-
 This file contains the basic information regarding the CLEF2021-CheckThat! Task 3
 on check-worthiness on tweets provided for the CLEF2021-CheckThat! Lab
 on "Automatic Detecting Check-Worthy Claims, Previously Fact-Checked Claims, and Fake News".
@@ -42,11 +38,15 @@ TBA
 
 ## List of Versions
 
+subtask-3a--english-v1.0 [2021/04/06] - Sample data for task 3a is relaeased, consisting 50 news article. (scheduled)
+subtask-3a--english-v1.0 [2021/04/15] - Sample data for task 3a is relaeased, consisting 50 news article. (scheduled)
 
 ## Contents of the Task 3 Directory
 We provide the following files:
 
 * Main folder: [data](./data)
+Subfolder: subtask-3A--english
+Subfolder: subtask-3B--english
 * Main folder: [baseline](./baseline)<br/>
 	Contains scripts provided for baseline models of the tasks
 * Main folder: [baseline](./format_checker)<br/>
@@ -62,7 +62,7 @@ We provide the following files:
 
 The data will be provided in the format of Id, title, text, rating, domain the description of column are as follows:
 
-- ID- ID of the news article
+- ID- Unique indetifier of the news article
 - Title- Title of the news article
 - text- Text mentioned inside the news article
 - rating - class of the news article as false, partially false, true, other

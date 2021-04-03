@@ -62,11 +62,11 @@ We provide the following files:
 
 The data will be provided in the format of Id, title, text, rating, domain the description of column are as follows:
 
-ID- ID of the news article
-Title- Title of the news article
-text- Text mentioned inside the news article
-rating - class of the news article as false, partially false, true, other
-domain - domain of the given news article(applicable only for task B)
+- ID- ID of the news article
+- Title- Title of the news article
+- text- Text mentioned inside the news article
+- rating - class of the news article as false, partially false, true, other
+- domain - domain of the given news article(applicable only for task B)
 
 ### Subtask 3A: Multi-Class Fake News Detection of News Articles
 
@@ -108,7 +108,7 @@ TBA
 TBA
 
 ## Evaluation Metrics
-This task is evaluated as a classification task. We will use accuracy, and F1 measure.
+This task is evaluated as a classification task. We will use the F1-macro measure for the ranking of teams.
 
 
 ## Baselines
@@ -124,7 +124,12 @@ TBA
 
 ## Credits
 
-Task 3 Organizers: TBA
+Task 3 Organizers: 
+
+- Thomas Mandl, University of Hildesheim
+- Julia Maria Struß, University of Applied Sciences Potsdam
+- Gautam Kishore Shahi, University of Duisburg-Essen
+- Sandip Modha, LDRP Institute of Technology and Research
 
 Task website: https://sites.google.com/view/clef2021-checkthat/tasks/task-3-fake-news-detection
 

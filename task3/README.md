@@ -38,8 +38,8 @@ TBA
 
 ## List of Versions
 
-**subtask-3a--english-v1.0 [2021/04/06]** - Sample data for task 3a is relaeased, consisting 50 news article. (scheduled)
-**subtask-3a--english-v1.0 [2021/04/15]** - Sample data for task 3a is relaeased, consisting 50 news article. (scheduled)
+- **subtask-3a--english-v1.0 [2021/04/06]** - Sample data for task 3a is relaeased, consisting 50 news article. (scheduled)
+- **subtask-3a--english-v1.0 [2021/04/15]** - Sample data for task 3a is relaeased, consisting 50 news article. (scheduled)
 
 ## Contents of the Task 3 Directory
 We provide the following files:

@@ -3,9 +3,9 @@
 This repository contains the _dataset_, _format checker, scorer and baselines_ for the [CLEF2021-CheckThat! Task 3](https://sites.google.com/view/clef2021-checkthat/tasks/task-3-fake-news-detection). 
 Given the text of a news article, determine whether the claims made in the article are true, partially true, false or other (e.g., claims in dispute) and also detect the topical domain of the article. This task will run in English.
 
-````
-TBA
-````
+Subtask 3A: Multi-class fake news detection of news articles (English): Sub-task A would be the detection of fake news designed as a four-class classification problem. The training data will be released in batches and will be roughly about 1,000 articles with the respective label. Given the text of a news article, determine whether the main claim made in the article is true, partially true, false, or other. 
+
+Subtask 3B: Fact-checkers require background expertise to identify the truthfulness of an article. The categorisation will help to automate the sampling process from a stream of data. Given the text of a news article, determine the topical domain of the article (English). This is a classification problem. The task is to categorise fake news articles into five or more different topical categories like health, election, conspiracy theory etc. This task will be offered for a subset of the data of Subtask 3A.
 
 This file contains the basic information regarding the CLEF2021-CheckThat! Task 3
 on check-worthiness on tweets provided for the CLEF2021-CheckThat! Lab
@@ -60,23 +60,31 @@ We provide the following files:
 
 ## Input Data Format
 
+The data will be provided in the format of Id, title, text, rating, domain the description of column are as follows:
+
+ID- ID of the news article
+Title- Title of the news article
+text- Text mentioned inside the news article
+rating - class of the news article as false, partially false, true, other
+domain - domain of the given news article(applicable only for task B)
+
 ### Subtask 3A: Multi-Class Fake News Detection of News Articles
 
-TBA
+Subtask 3A: Multi-class fake news detection of news articles (English): Sub-task A would be the detection of fake news designed as a four-class classification problem. The training data will be released in batches and will be roughly about 1,000 articles with the respective label. Given the text of a news article, determine whether the main claim made in the article is true, partially true, false, or other. 
 
 ### Topical Domain Classification of News Articles
 
-TBA
+Subtask 3B: Fact-checkers require background expertise to identify the truthfulness of an article. The categorisation will help to automate the sampling process from a stream of data. Given the text of a news article, determine the topical domain of the article (English). This is a classification problem. The task is to categorise fake news articles into five or more different topical categories like health, election, conspiracy theory etc. This task will be offered for a subset of the data of Subtask 3A.
 
 ## Output Data Format
 
 ### Subtask 3A: Multi-Class Fake News Detection of News Articles
 
-TBA
+We need the output file in the format of Id, rating.
 
 ### Topical Domain Classification of News Articles
 
-TBA
+We need the output file in the format of Id, domain.
 
 
 ## Format Checkers

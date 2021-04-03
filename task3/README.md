@@ -45,8 +45,8 @@ subtask-3a--english-v1.0 [2021/04/15] - Sample data for task 3a is relaeased, co
 We provide the following files:
 
 - Main folder: [data](./data)
-- - Subfolder: subtask-3A--english
-- - Subfolder: subtask-3B--english
+  - Subfolder: subtask-3A--english
+  - Subfolder: subtask-3B--english
 - Main folder: [baseline](./baseline)<br/>
 - 	Contains scripts provided for baseline models of the tasks
 - Main folder: [baseline](./format_checker)<br/>

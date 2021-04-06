@@ -41,7 +41,9 @@ TBA
 
 # List of Versions
 
-* __subtask-2b--english-v1.0 [2021/02/22]__ - Training/Dev data for subtask-2a--english released. Containing 562 iclaim--vclaim pair for train and 140 iclaim--vclaim pair for dev.
+* __subtask-2a--english-v1.0 [2021/04/06]__ - Training/Dev data for subtask-2a--english released.
+* __subtask-2a--arabic-v1.1 [2021/04/02]__ - Training/Dev data for subtask-2a--arabic released.
+* __subtask-2b--english-v1.0 [2021/02/22]__ - Training/Dev data for subtask-2b--english released. Containing 562 iclaim--vclaim pair for train and 140 iclaim--vclaim pair for dev.
 
 
 # Contents of the Task 2 Directory

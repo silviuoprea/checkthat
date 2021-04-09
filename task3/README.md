@@ -43,7 +43,7 @@ TBA
 
 ## Copyright Agreement 
 
-The data in the research collection provided for CheckThat! 2021 task 3 may only be used for research purposes. Portions of the data are copyrighted and have commercial value as data, so you must be careful to use it only for research purposes. Due to these restrictions, the CheckThat! task-3 collection is not open data. Please send the signed form to fakenewstask@gmail.com . Please download the Agreement at <a href="https://gitlab.com/checkthat_lab/clef2021-checkthat-lab/-/blob/master/task3/checkthat2021_task3_datasharingagreement.pdf"> Data Sharing Agreement</a>
+The data in the research collection provided for CheckThat! 2021 task 3 may only be used for research purposes. Portions of the data are copyrighted and have commercial value as data, so you must be careful to use it only for research purposes. Due to these restrictions, the CheckThat! task-3 collection is not open data. Please download the Agreement at <a href="https://gitlab.com/checkthat_lab/clef2021-checkthat-lab/-/blob/master/task3/checkthat2021_task3_datasharingagreement.pdf"> Data Sharing Agreement</a> and send the signed form to fakenewstask@gmail.com .
 
 
 

@@ -41,6 +41,12 @@ TBA
 - **subtask-3a--english-v1.0 [2021/04/06]** - Sample data for task 3a is relaeased, consisting 50 news article. (Released)
 - **subtask-3a--english-v1.0 [2021/04/15]** - 2nd batch of data will be released (scheduled)
 
+## Copyright Agreement 
+
+The data in the research collection provided for CheckThat! 2021 task 3 may only be used for research purposes. Portions of the data are copyrighted and have commercial value as data, so you must be careful to use it only for research purposes. Due to these restrictions, the CheckThat! task-3 collection is not open data. Please send the signed form to fakenewstask@gmail.com . Please click below to download the Agreement- <a href="https://gitlab.com/checkthat_lab/clef2021-checkthat-lab/-/blob/master/task3/checkthat2021_task3_datasharingagreement.pdf"> Data Sharing Agreement</a>
+
+
+
 ## Contents of the Task 3 Directory
 We provide the following files:
 

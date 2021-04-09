@@ -25,7 +25,7 @@ __Table of contents:__
 	- [Queries File (**Subtask-2A** and **Subtask-2B**)](#queries-file-subtask-2a-and-subtask-2b)
 	- [Qrels File (**Subtask-2A** and **Subtask-2B**)](#qrels-file-subtask-2a-and-subtask-2b)
 	- [Tweet Objects (**Subtask-2A** Only)](#tweet-objects-subtask-2a-only)
-	- [Deabte/Speeches Transcripts (**Subtask-2B** Only)](#debatespeeches-transcripts-subtask-2b-only)
+	- [Debates/Speeches Transcripts (**Subtask-2B** Only)](#debatespeeches-transcripts-subtask-2b-only)
 - [Output Data Format](#output-data-format)
 - [Format Checkers](#format-checkers)
 - [Scorers](#scorers)
@@ -72,7 +72,7 @@ Both subtasks share the same file formats with minor differences. There are ## f
 - [Queries File (**Subtask-2A** and **Subtask-2B**)](#queries-file-subtask-2a-and-subtask-2b)
 - [Qrels File (**Subtask-2A** and **Subtask-2B**)](#qrels-file-subtask-2a-and-subtask-2b)
 - [Tweet Objects (**Subtask-2A** Only)](#tweet-objects-subtask-2a-only)
-- [Deabte/Speeches Transcripts (**Subtask-2B** Only)](#debatespeeches-transcripts-subtask-2b-only)
+- [Debates/Speeches Transcripts (**Subtask-2B** Only)](#debatespeeches-transcripts-subtask-2b-only)
 
 ## Verified Claims (Subtask-2A and Subtask-2B)
 

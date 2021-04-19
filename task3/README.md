@@ -39,7 +39,9 @@ TBA
 ## List of Versions
 
 - **subtask-3a--english-v1.0 [2021/04/06]** - Sample data for task 3a is relaeased, consisting 50 news article. (Released)
-- **subtask-3a--english-v1.0 [2021/04/15]** - 2nd batch of data will be released (scheduled)
+- **subtask-3a--english-v1.0 [2021/04/21]** - 2nd batch of data will be released (scheduled)
+- **subtask-3a--english-v1.0 [2021/04/28]** - 2nd batch of data will be released (scheduled)
+- **subtask-3b--english-v1.0 [2021/04/30]** - data will be released (scheduled)
 
 ## Copyright Agreement 
 

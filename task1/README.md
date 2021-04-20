@@ -38,7 +38,7 @@ __Table of contents:__
 
 ## Evaluation Results
 
-TBA
+All leaderboard for dev and test data can be found here, https://competitions.codalab.org/competitions/30853. 
 
 ## List of Versions
 

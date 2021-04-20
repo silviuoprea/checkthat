@@ -8,3 +8,6 @@ v1.2 updated the verified claims to JSON format
 v1.3 major updates were done to the qrels in addition to some updates to the queries as follows:
 * the number of qrels increased from 649 to 696 as we found other claims relevant to the same queries within the verified claims collection.
 * tweet-ar-286 and tweet-are-743 were excluded from the training queries as they are duplicates to tweet-ar-729 and tweet-ar-287 respectively.
+
+v1.4 some updates were done to the qrels as follows:
+* 9 new qrels were added and excluded one. We have 704 qrels now.

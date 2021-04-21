@@ -3,9 +3,8 @@
 This repository contains the _dataset_, _format checker, scorer and baselines_ for the [CLEF2021-CheckThat! Task 2](https://sites.google.com/view/clef2021-checkthat/tasks/task-2-claim-retrieval). 
 Given a check-worthy claim in the form of a tweet, and a set of previously fact-checked claims, rank the previously fact-checked claims in order of usefulness to fact-check the input claim.
 
-
 ````
-TBA
+FCPD corpus for the CLEF-2021 LAB on "Detecting Check-Worthy Claims, Previously Fact-Checked Claims, and Fake News"
 ````
 
 This file contains the basic information regarding the CLEF2021-CheckThat! Task 2
@@ -37,7 +36,7 @@ __Table of contents:__
 
 # Evaluation Results
 
-TBA
+All leaderboards for dev and test data can be found here, https://competitions.codalab.org/competitions/30949. 
 
 # List of Versions
 

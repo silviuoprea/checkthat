@@ -316,7 +316,7 @@ The [baselines](./baselines) module contains a random and a simple BM25 IR basel
 | Model | subtask-2A--English | subtask-2A--Arabic | subtask-2B--English |
 | :---: | :---: | :---: | :---: |
 | Random Baseline | 0.0000 |  | 0.0000 |
-| Ngram Baseline  | 0.8179 |  | 0.3207 |
+| BM25 Baseline  | 0.8179 |  | 0.3207 |
 
 
 

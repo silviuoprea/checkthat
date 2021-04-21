@@ -9,6 +9,10 @@ on "Automatic Detecting Check-Worthy Claims, Previously Fact-Checked Claims, and
 The current version (?) corresponds to the release of the first batch of the training data set. 
 The test set is released with the current version.
 
+## Data-sharing Agreement 
+
+The data in the research collection provided for CheckThat! 2021 task 3 may only be used for research purposes. Portions of the data are copyrighted and have commercial value as data, so you must be careful to use it only for research purposes. Due to these restrictions, the CheckThat! task-3 collection is not open data. Please download the Agreement at <a href="https://gitlab.com/checkthat_lab/clef2021-checkthat-lab/-/blob/master/task3/checkthat2021_task3_datasharingagreement.pdf"> Data Sharing Agreement</a> and send the signed form to fakenewstask@gmail.com .
+
 
 __Table of contents:__
 - [Evaluation Results](#evaluation-results)
@@ -42,12 +46,6 @@ TBA
 - **subtask-3a--english-v1.0 [2021/04/20]** - 1st batch of data released (Released).
 - **subtask-3a--english-v1.0 [2021/04/28]** - 2nd batch of data will be released (scheduled)
 - **subtask-3b--english-v1.0 [2021/04/30]** - data will be released (scheduled)
-
-## Copyright Agreement 
-
-The data in the research collection provided for CheckThat! 2021 task 3 may only be used for research purposes. Portions of the data are copyrighted and have commercial value as data, so you must be careful to use it only for research purposes. Due to these restrictions, the CheckThat! task-3 collection is not open data. Please download the Agreement at <a href="https://gitlab.com/checkthat_lab/clef2021-checkthat-lab/-/blob/master/task3/checkthat2021_task3_datasharingagreement.pdf"> Data Sharing Agreement</a> and send the signed form to fakenewstask@gmail.com .
-
-
 
 ## Contents of the Task 3 Directory
 We provide the following files:

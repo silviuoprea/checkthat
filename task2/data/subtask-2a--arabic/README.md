@@ -11,3 +11,7 @@ v1.3 major updates were done to the qrels in addition to some updates to the que
 
 v1.4 some updates were done to the qrels as follows:
 * 9 new qrels were added and excluded one. We have 704 qrels now.
+
+v1.5 we divided the training data shared in the previous version into training and development sets as follows:
+* 512 training queries with 602 qrels.
+* 85 development queries with 102 qrels.

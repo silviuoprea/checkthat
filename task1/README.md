@@ -43,7 +43,7 @@ Submission Guidelines:
 - The last file submitted to the leaderboard will be considered as the final submission. 
 - The output file has to have a `.tsv` extension; otherwise, you will get an error on the leaderboard.
 - You need to write a small description of the model submitted in a `.txt` file. 
-- You have to zip the tsv, `zip submission.zip path_to_tsv_file.tsv model_description.txt` and submit it through the codalab page. 
+- You have to zip the tsv, `zip submission.zip path_to_tsv_pred_file_1.tsv path_to_tsv_pred_file_2.tsv ... path_to_tsv_pred_file_n.tsv model_description.txt` and submit it through the codalab page. 
 
 All leaderboard for dev and test data can be found here, https://competitions.codalab.org/competitions/30853. 
 

@@ -36,6 +36,13 @@ __Table of contents:__
 
 # Evaluation Results
 
+Submission Guidelines:
+- Make sure that you create one account for each team, and submit it through one account only. 
+- The last file submitted to the leaderboard will be considered as the final submission. 
+- The output file has to have a `.tsv` extension; otherwise, you will get an error on the leaderboard.
+- You need to write a small description of the model submitted in a `.txt` file. 
+- You have to zip the tsv, `zip submission.zip path_to_tsv_file.tsv model_description.txt` and submit it through the codalab page. 
+
 All leaderboards for dev and test data can be found here, https://competitions.codalab.org/competitions/30949. 
 
 # List of Versions

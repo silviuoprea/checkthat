@@ -40,8 +40,8 @@ def evaluate(gold_fpath, pred_fpath, thresholds=None):
     return maps, mrr, precisions
 
 
-def validate_files(pred_file, subtask):
-    if not check_format(pred_file, subtask):
+def validate_files(pred_file):
+    if not check_format(pred_file):
         logging.error('Bad format for pred file {}. Cannot score.'.format(pred_file))
         return False
     return True
@@ -61,10 +61,11 @@ if __name__ == '__main__':
     pred_file = args.pred_file_path
     gold_file = args.gold_file_path
 
-    maps, mrr, precisions = evaluate(gold_file, pred_file)
-    filename = os.path.basename(pred_file)
-    logging.info('{:=^120}'.format(' RESULTS for {} '.format(filename)))
-    print_single_metric('RECIPROCAL RANK:', mrr)
-    print_thresholded_metric('PRECISION@N:', MAIN_THRESHOLDS, precisions)
-    print_thresholded_metric('MAP@N:', MAIN_THRESHOLDS, maps)
+    if validate_files(pred_file):
+        maps, mrr, precisions = evaluate(gold_file, pred_file)
+        filename = os.path.basename(pred_file)
+        logging.info('{:=^120}'.format(' RESULTS for {} '.format(filename)))
+        print_single_metric('RECIPROCAL RANK:', mrr)
+        print_thresholded_metric('PRECISION@N:', MAIN_THRESHOLDS, precisions)
+        print_thresholded_metric('MAP@N:', MAIN_THRESHOLDS, maps)
 

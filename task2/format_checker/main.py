@@ -47,7 +47,7 @@ def check_format(preditions_file_path):
                     f'on lines {duplication} and {line_no} in file: {preditions_file_path}'
             else:
                 pair_ids[(tweet_id, vclaim_id)] = line_no
-    return
+    return True
 
 def run_checks(prediction_file):
     error = check_format(prediction_file)

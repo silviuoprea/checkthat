@@ -89,7 +89,7 @@ Subtask 3A: Multi-class fake news detection of news articles (English): Sub-task
 
 ### Topical Domain Classification of News Articles
 
-Subtask 3B: Fact-checkers require background expertise to identify the truthfulness of an article. The categorisation will help to automate the sampling process from a stream of data. Given the text of a news article, determine the topical domain of the article (English). This is a classification problem. The task is to categorise fake news articles into five or more different topical categories like health, election, conspiracy theory etc. This task will be offered for a subset of the data of Subtask 3A.
+Subtask 3B:  Fact-checkers require background expertise to identify the truthfulness of an article. The categorisation will help to automate the sampling process from a stream of data. Given the text of a news article, determine the topical domain of the article (English). This is a classification problem. The task is to categorise fake news articles into six topical categories like health, election, crime, climate, election, education. This task will be offered for a subset of the data of Subtask 3A.
 
 ## Output Data Format
 

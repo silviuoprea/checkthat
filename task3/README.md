@@ -73,13 +73,13 @@ The data will be provided in the format of Id, title, text, rating, domain the d
 
 ## Task 3A
 - public_id- Unique indetifier of the news article
-- Title- Title of the news article
+- title- Title of the news article
 - text- Text mentioned inside the news article
 - our rating - class of the news article as false, partially false, true, other
 
 ## Task 3B
 - public_id- Unique indetifier of the news article
-- Title- Title of the news article
+- title- Title of the news article
 - text- Text mentioned inside the news article
 - domain - domain of the given news article(applicable only for task B)
 

@@ -47,6 +47,9 @@ Submission Guidelines:
 
 All leaderboard for dev and test data can be found here, https://competitions.codalab.org/competitions/30853. 
 
+*NOTE*: The leaderboard for the Spanish test data is found in a separate leaderboard, https://competitions.codalab.org/competitions/31262.
+
+
 ## List of Versions
 
 * __subtask-1a--bulgarian-v1.0 [2021/02/23]__ - Training/Dev data for subtask-1a--Bukgarian released. Containing 2594 tweets for train and 372 tweets for dev.

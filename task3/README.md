@@ -123,8 +123,10 @@ TBA
 TBA
 
 ## Evaluation Metrics
-This task is evaluated as a classification task. We will use the F1-macro measure for the ranking of teams.
 
+This task is evaluated as a classification task. We will use the F1-macro measure for the ranking of teams. There is a limit of 5 runs (total and not per day), and only one person from a team is allowed to submit runs.
+
+Submission Link: https://competitions.codalab.org/competitions/31238
 
 ## Baselines
 

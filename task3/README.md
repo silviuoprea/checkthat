@@ -47,8 +47,8 @@ TBA
 
 - **subtask-3a--english-v1.0 [2021/04/06]** - Sample data for task 3a is relaeased, consisting 50 news article.
 - **subtask-3a--english-v1.0 [2021/04/21]** - 1st batch of data is released.
-- **subtask-3a--english-v1.0 [2021/04/29]** - 2nd batch(final) of data is released.
-- **subtask-3b--english-v1.0 [2021/04/30]** - data for task 3b is released.
+- **subtask-3a--english-v1.0 [2021/04/30]** - 2nd batch(final) of data is released.
+- **subtask-3b--english-v1.0 [2021/05/01]** - data for task 3b is released.
 
 ## Contents of the Task 3 Directory
 We provide the following files:
@@ -85,7 +85,7 @@ The data will be provided in the format of Id, title, text, rating, domain the d
 
 ### Subtask 3A: Multi-Class Fake News Detection of News Articles
 
-Subtask 3A: Multi-class fake news detection of news articles (English): Sub-task A would be the detection of fake news designed as a four-class classification problem. The training data will be released in batches and will be roughly about 1,000 articles with the respective label. Given the text of a news article, determine whether the main claim made in the article is true, partially true, false, or other. 
+Subtask 3A: Multi-class fake news detection of news articles (English): Sub-task A would be the detection of fake news designed as a four-class classification problem. The training data will be released in batches and will be roughly about 900 articles with the respective label. Given the text of a news article, determine whether the main claim made in the article is true, partially true, false, or other. 
 
 ### Topical Domain Classification of News Articles
 
@@ -95,11 +95,11 @@ Subtask 3B:  Fact-checkers require background expertise to identify the truthfu
 
 ### Subtask 3A: Multi-Class Fake News Detection of News Articles
 
-We need the output file in the format of Id, rating.
+We need the output file in the format of public_id, predicted_rating.
 
 ### Topical Domain Classification of News Articles
 
-We need the output file in the format of Id, domain.
+We need the output file in the format of public_id, predicted_domain.
 
 
 ## Format Checkers

@@ -35,6 +35,8 @@ Submission Guidelines:
 
 All leaderboard for dev and test data can be found here, https://competitions.codalab.org/competitions/30853. 
 
+**NOTE**: The leaderboard for the Spanish test data is found in a separate leaderboard, https://competitions.codalab.org/competitions/31262.
+
 ## Task 2
 
 Submission Guidelines:

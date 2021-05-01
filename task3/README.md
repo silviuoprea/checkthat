@@ -71,10 +71,16 @@ We provide the following files:
 
 The data will be provided in the format of Id, title, text, rating, domain the description of column are as follows:
 
-- ID- Unique indetifier of the news article
+## Task 3A
+- public_id- Unique indetifier of the news article
 - Title- Title of the news article
 - text- Text mentioned inside the news article
-- rating - class of the news article as false, partially false, true, other
+- our rating - class of the news article as false, partially false, true, other
+
+## Task 3B
+- public_id- Unique indetifier of the news article
+- Title- Title of the news article
+- text- Text mentioned inside the news article
 - domain - domain of the given news article(applicable only for task B)
 
 ### Subtask 3A: Multi-Class Fake News Detection of News Articles

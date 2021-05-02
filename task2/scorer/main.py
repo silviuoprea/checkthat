@@ -40,10 +40,21 @@ def evaluate(gold_fpath, pred_fpath, thresholds=None):
     return maps, mrr, precisions
 
 
-def validate_files(pred_file):
+def validate_files(pred_file, gold_file):
     if not check_format(pred_file):
         logging.error('Bad format for pred file {}. Cannot score.'.format(pred_file))
         return False
+
+    # Checking that all the input tweets are in the prediciton file and have predicitons. 
+    pred_names = ['iclaim_id', 'zero', 'vclaim_id', 'rank', 'score', 'tag']
+    pred_df = pd.read_csv(pred_file, sep='\t', names=pred_names, index_col=False)
+    gold_names = ['iclaim_id', 'zero', 'vclaim_id', 'relevance']
+    gold_df = pd.read_csv(gold_file, sep='\t', names=gold_names, index_col=False)
+    for iclaim in set(gold_df.iclaim_id):
+        if iclaim not in pred_df.iclaim_id.tolist():
+            logging.error('Missing iclaim {}. Cannot score.'.format(iclaim))
+            return False
+
     return True
 
 
@@ -61,7 +72,7 @@ if __name__ == '__main__':
     pred_file = args.pred_file_path
     gold_file = args.gold_file_path
 
-    if validate_files(pred_file):
+    if validate_files(pred_file, gold_file):
         maps, mrr, precisions = evaluate(gold_file, pred_file)
         filename = os.path.basename(pred_file)
         logging.info('{:=^120}'.format(' RESULTS for {} '.format(filename)))

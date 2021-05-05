@@ -314,7 +314,7 @@ It also handles checking if the provided predictions file contains all lines/twe
 
 
 # Evaluation Metrics
-This task is evaluated as a ranking task. Ranked list per claim will be evaluated using ranking evaluation measures (MAP@k for k=1,3,5,10,20,all, MRR and Recall@k for k=1,3,5,10,20). Official measure is MAP@5.
+This task is evaluated as a ranking task. Ranked list per claim will be evaluated using ranking evaluation measures (MAP@k for k=1,3,5,10,20,all, MRR and Precision@k for k=1,3,5,10,20). Official measure is MAP@5.
 
 
 # Baselines

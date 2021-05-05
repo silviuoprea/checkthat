@@ -332,7 +332,7 @@ To launch the baseline script you need to install packages dependencies found in
 
 ## Random Baseline
 To launch the random baseline script run the following:
-> python3 baselines/random_baseline.py --train-file-path=<path_to_your_training_data> --test-file-path=<path_to_your_test_data_to_be_evaluated> --lang=<language_of_the_task_2> --subtask=<subtask_you_are_working_on> --vclaims-dir-path=<path_to_your_directory_of_vclaims> <br/>
+> python3 baselines/random_baseline.py --train-file-path= --test-file-path= --lang= --subtask= --vclaims-dir-path= <br/>
 
 
 ## Elasticsearch Baseline 
@@ -341,7 +341,7 @@ You can follow [this](https://www.elastic.co/guide/en/elasticsearch/reference/cu
 > /path/to/elasticsearch
 
 To launch the elasticsearch baseline script run the following:
-> python3 baselines/elasticsearch_baseline.py --train-file-path=<path_to_your_training_data> --test-file-path=<path_to_your_test_data_to_be_evaluated> --lang=<language_of_the_task_2> --subtask=<subtask_you_are_working_on> --vclaims-dir-path=<path_to_your_directory_of_vclaims> --iclaims-file-path=<path_to_queries_iclaim_file> <br/>
+> python3 baselines/elasticsearch_baseline.py --train-file-path= --test-file-path= --lang= --subtask= --vclaims-dir-path=  --iclaims-file-path=  <br/>
 
 **NOTE:** There are other parameters you can play with in the elasticsearch baseline script. 
 

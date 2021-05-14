@@ -23,7 +23,16 @@ The CLEF2021-CheckThat! Lab has three main tasks each offered in variaty of lang
     - Subtask 3B: Topical Domain Classification of News Articles
       - **English**
 
-# Leaderboards and Submission sites
+# Leaderboard 
+
+## Task 1
+Kindly find the leaderboard released in this google sheet, [link](https://tinyurl.com/kfmawuke). you can find in the tab labeled "Task 1".
+
+## Task 2
+Kindly find the leaderboard released in this google sheet, [link](https://tinyurl.com/kfmawuke). you can find in the tab labeled "Task 2".
+
+
+# Submission sites
 ## Task 1
 
 Submission Guidelines:

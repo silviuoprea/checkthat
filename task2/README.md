@@ -36,6 +36,8 @@ __Table of contents:__
 
 # Evaluation Results
 
+Kindly find the leaderboard released in this google sheet, [link](https://tinyurl.com/kfmawuke). you can find in the tab labeled "Task 2".
+
 Submission Guidelines:
 - Make sure that you create one account for each team, and submit it through one account only. 
 - The last file submitted to the leaderboard will be considered as the final submission. 

@@ -116,11 +116,46 @@ TBA
 
 ### Subtask 3A: Multi-Class Fake News Detection of News Articles
 
-TBA
+  |   Team/Participant Name  |   Score  |   
+  |   sushmakumari  |   0.8376451772  |   
+  |   kannanrrk  |   0.5034290158  |   
+  |   jmartinez595  |   0.4680478564  |   
+  |   hariharanrl  |   0.448832841  |   
+  |   cipriancus  |   0.4463072939  |   
+  |   Huertas97  |   0.4142550112  |   
+  |   pHartl  |   0.4041478353  |   
+  |   boby024  |   0.4013434521  |   
+  |   nomanashraf712  |   0.3892308335  |   
+  |   SaifuddinSohan  |   0.3822517154  |   
+  |   Ninko  |   0.3579356596  |   
+  |   talhaanwar  |   0.3567233441  |   
+  |   abaruah  |   0.3432240588  |   
+  |   rsepulveda911112  |   0.3030264254  |   
+  |   almamun  |   0.2607967091  |   
+  |   architap  |   0.2566547582  |   
+  |   fazlfrs  |   0.2334558443  |   
+  |   rafiuzzaman15-9655  |   0.2329868721  |   
+  |   ashik2580  |   0.2225799978  |   
+  |   thoufiq  |   0.1857022836  |   
+  |   Rudra  |   0.1498333201  |   
+  |   ep  |   0.1347957835  | 
 
 ### Topical Domain Classification of News Articles
 
-TBA
+  |   Team/Participant Name  |   Score  |   
+  |   hariharanrl  |   0.8813840965  |   
+  |   sushmakumari  |   0.8552061398  |   
+  |   Ninko  |   0.8410300885  |   
+  |   kannanrrk  |   0.817812671  |   
+  |   nomanashraf712  |   0.7896621462  |   
+  |   architap  |   0.786037089  |   
+  |   NLytics  |   0.7310895828  |   
+  |   ep  |   0.4791621206  |   
+  |   boby024  |   0.4484680905  |   
+  |   ashik2580  |   0.1450648056  |   
+  |   fazlfrs  |   0.1450648056  |   
+  |   azaharudue  |   0.1282925881  |   
+  |   Huertas97  |   0.1037088387  |   
 
 ## Evaluation Metrics
 
@@ -128,11 +163,22 @@ This task is evaluated as a classification task. We will use the F1-macro measur
 
 Submission Link: https://competitions.codalab.org/competitions/31238
 
+Evaluation File task3/evaluation/CLEF_-_CheckThat__Task3ab_-_Evaluation.txt
+
 ## Baselines
 
 ### Subtask 3A: Multi-Class Fake News Detection of News Articles
 
-TBA
+```
+@inproceedings{shahifakecovid,
+title={Fake{C}ovid -- A Multilingual Cross-domain Fact Check News Dataset for COVID-19},
+author={Shahi, Gautam Kishore and Nandini, Durgesh},
+booktitle={Workshop Proceedings of the 14th International {AAAI} {C}onference on {W}eb and {S}ocial {M}edia},
+year = {2020},
+url = {http://workshop-proceedings.icwsm.org/pdf/2020_14.pdf}
+}
+```
+
 
 ### Topical Domain Classification of News Articles
 

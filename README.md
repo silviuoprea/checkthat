@@ -71,9 +71,32 @@ Contact:   clef-factcheck@googlegroups.com
 
 # Citation
 
-You can find the overview paper on the CLEF2021-CheckThat! Lab in the paper, "The CLEF-2021 CheckThat! Lab on Detecting Check-Worthy Claims, Previously Fact-Checked Claims, and Fake News" (see citation bellow) in this [link]().
+You can find the overview paper on the CLEF2021-CheckThat! Lab in the paper, "The CLEF-2021 CheckThat! Lab on Detecting Check-Worthy Claims, Previously Fact-Checked Claims, and Fake News".
 
 ```
-
+@InProceedings{​​​​​​​CheckThat:ECIR2021,
+  author    = {​​​​​​​Preslav Nakov and
+               Da San Martino, Giovanni and
+               Tamer Elsayed and
+               Alberto Barr{​​​​​​​\'{​​​​​​​o}​​​​​​​}​​​​​​​n{​​​​​​​-}​​​​​​​Cede{​​​​​​​\~{​​​​​​​n}​​​​​​​}​​​​​​​o and
+               Rub\'{​​​​​​​e}​​​​​​​n M\'{​​​​​​​i}​​​​​​​guez and
+               Shaden Shaar and
+               Firoj Alam and
+               Fatima Haouari and
+               Maram Hasanain and
+               Nikolay Babulkov and
+               Alex Nikolov and
+               Shahi, Gautam Kishore and
+               Struß, Julia Maria and
+               Thomas Mandl}​​​​​​​,
+  title     = {​​​​​​​The {​​​​​​​CLEF}​​​​​​​-2021 {​​​​​​​CheckThat}​​​​​​​! Lab on Detecting Check-Worthy Claims, Previously Fact-Checked Claims, and Fake News}​​​​​​​,
+    booktitle = {​​​​​​​Proceedings of the 43rd European Conference on Information Retrieval}​​​​​​​,
+    series = {​​​​​​​ECIR~'21}​​​​​​​,
+    pages = {​​​​​​​639--649}​​​​​​​,
+    address   = {​​​​​​​Lucca, Italy}​​​​​​​,
+    month     = {​​​​​​​March}​​​​​​​,
+    year      = {​​​​​​​2021}​​​​​​​,
+    url = {​​​​​​​https://link.springer.com/chapter/10.1007/978-3-030-72240-1_75}​​​​​​​​
+}​​​​​​​
 
 ```

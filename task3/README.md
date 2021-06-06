@@ -89,7 +89,7 @@ Subtask 3A: Multi-class fake news detection of news articles (English): Sub-task
 
 ### Topical Domain Classification of News Articles
 
-Subtask 3B:  Fact-checkers require background expertise to identify the truthfulness of an article. The categorisation will help to automate the sampling process from a stream of data. Given the text of a news article, determine the topical domain of the article (English). This is a classification problem. The task is to categorise fake news articles into six topical categories like **health, election, crime, climate, election, education**. This task will be offered for a subset of the data of Subtask 3A.
+Subtask 3B:  Fact-checkers require background expertise to identify the truthfulness of an article. The categorisation will help to automate the sampling process from a stream of data. Given the text of a news article, determine the topical domain of the article (English). This is a classification problem. The task is to categorise fake news articles into six topical categories like **health, election, crime, climate, economy, education**. This task will be offered for a subset of the data of Subtask 3A.
 
 ## Output Data Format
 
@@ -137,8 +137,8 @@ public_id, predicted_domain
 
 ### Subtask 3A: Multi-Class Fake News Detection of News Articles
 
-  |   Team/Participant Name  |   Score  |   
-  |   sushmakumari  |   0.8376451772  |   
+  |   **Team/Participant Name**  |   **Score ** |   
+  |   NoFake  |   0.8376451772  |   
   |   kannanrrk  |   0.5034290158  |   
   |   jmartinez595  |   0.4680478564  |   
   |   hariharanrl  |   0.448832841  |   
@@ -163,9 +163,9 @@ public_id, predicted_domain
 
 ### Topical Domain Classification of News Articles
 
-  |   Team/Participant Name  |   Score  |   
+  |   **Team/Participant Name**  |   **Score**  |   
   |   hariharanrl  |   0.8813840965  |   
-  |   sushmakumari  |   0.8552061398  |   
+  |   NoFake  |   0.8552061398  |   
   |   Ninko  |   0.8410300885  |   
   |   kannanrrk  |   0.817812671  |   
   |   nomanashraf712  |   0.7896621462  |   

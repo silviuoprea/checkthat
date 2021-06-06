@@ -6,8 +6,10 @@ Given the text of a news article, determine whether the claims made in the artic
 This file contains the basic information regarding the CLEF2021-CheckThat! Task 3
 on check-worthiness on tweets provided for the CLEF2021-CheckThat! Lab
 on "Automatic Detecting Check-Worthy Claims, Previously Fact-Checked Claims, and Fake News".
-The current version (?) corresponds to the release of the first batch of the training data set. 
-The test set is released with the current version.
+
+<!-- The current version (?) corresponds to the release of the first batch of the training data set. 
+The test set is released with the current version. -->
+
 
 ## Data-sharing Agreement 
 
